@@ -1,0 +1,14 @@
+.languages {
+
+    .language-content {
+        button {
+            &.active {
+                background-color: #d5f7e7;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        margin-right: 0;
+    }
+}

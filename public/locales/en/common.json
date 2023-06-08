@@ -1,0 +1,110 @@
+{
+    "features": "Features",
+    "home": "Home",
+    "app-name": "Taptapos - Payment App",
+    "app-banner-text-1": "Sell with Ease",
+    "app-banner-text-2": "Anytime, Anywhere",
+    "app-banner-des": "Seamless payments anytime, anywhere. Effortlessly pay with our app.",
+    "our-features": "Our features",
+    "our-features-title": "<innerText className='gradient'>Unlock the Power</innerText> of <newLine /> Seamless Global Payments",
+    "our-features-nfc": "NFC Menthod",
+    "our-features-fast-transfer": "Fast fund transfers",
+    "our-features-multi-currency": "Multi - currency support",
+    "our-features-dashboard": "Dashboard",
+    "our-features-nfc-des": "Our payment solution app ensures the highest level of security for your cross-border transactions. With advanced encryption technology and stringent security protocols, your financial information is protected at all times. Rest easy knowing that your money is in safe hands.",
+    "our-features-fast-transfer-des": "Our payment solution app ensures the highest level of security for your cross-border transactions. With advanced encryption technology and stringent security protocols, your financial information is protected at all times. Rest easy knowing that your money is in safe hands.",
+    "our-features-multi-currency-des": "Our payment solution app ensures the highest level of security for your cross-border transactions. With advanced encryption technology and stringent security protocols, your financial information is protected at all times. Rest easy knowing that your money is in safe hands.",
+    "our-features-dashboard-des": "Our payment solution app ensures the highest level of security for your cross-border transactions. With advanced encryption technology and stringent security protocols, your financial information is protected at all times. Rest easy knowing that your money is in safe hands.",
+    "business-type": "Bussiness Types",
+    "how-it-works": "How it works",
+    "how-it-works-title": "<innerText className='gradient'>Unlock the Power</innerText> of <newLine/> Seamless Global Payments",
+    "how-it-works-des": "A suite of tools that works smarter for you and for your bottom line. Bring every side of your business together — sales, payments, payroll, inventory, and more.",
+    "how-it-works-item": {
+        "drive-sale": {
+            "title": "Drive Sale",
+            "des": "Accepts payments wherever your customers are with POS software and hardware solutions"
+        },
+        "payment-link": {
+            "title": "Payment Link",
+            "des": "Use Payment Links to sell online without a website. Create a full payment page in just a few clicks and share the link with your customers - no code required"
+        },
+        "sale-online": {
+            "title": "Sale Online",
+            "des": "Let online shoppers buy in just a few taps when you connect your store to social media"
+        },
+        "advance-report": {
+            "title": "Advance Reporting",
+            "des": "Make more informed business decisions with a powerful dashboard that gives the full picture of your business"
+        },
+        "cash-flow": {
+            "title": "Cash Flow",
+            "des": "Think ahead with banking features built-in. Start saving, managing money on-hand, and pay back loans all through your Dashboard"
+        },
+        "payment-service": {
+            "title": "Payout Service",
+            "des": "Payouts are how money from your customers get deposited into your bank account. Depending on your business location and payout schedule, funds from your transactions will be paid out to your bank account on a rolling basis"
+        },
+        "web-generic": {
+            "title": "Website Generics",
+            "des": "Build ecommerce website online with builder tools"
+        }
+    },
+    "partners-title": "Meet our <newLine /> <innerText className='gradient'>incrediable partners</innerText>",
+    "partners-des": "A suite of tools that works smarter for you and for your bottom line. Bring every side of your business together — sales, payments, payroll, inventory, and more.",
+    "footer-title-1": "Discover how <innerText className='taptapos ml-[10px] inline-block px-[24px] py-[6px] text-[24px] font-bold'>Taptapos</innerText>",
+    "footer-title-2": "makes global transactions",
+    "footer-title-3": "easy and convenient",
+    "contact-us": "Contact us",
+    "about-us": "About us",
+    "our-partners": "Partners",
+    "download-app": "Download App",
+    "contact-sale": "Contact sale",
+    "business-type-title": "Customize beyond <newLine/><innerText className='gradient'>your Businesss</innerText>",
+    "business-type-description": "Discover the capabilities that make our payment app the ideal solution for global transactions",
+    "retails": {
+        "title": "Retails",
+        "description": "Our payment solution app ensures the highest level of security for your cross-border transactions."
+    },
+    "f&b": {
+        "title": "F&B",
+        "description": "Our payment solution app ensures the highest level of security for your cross-border transactions."
+    },
+    "other": {
+        "title": "Other",
+        "description": "Our payment solution app ensures the highest level of security for your cross-border transactions."
+    },
+    "contact-modal": {
+        "get-in-touch": "Get in Touch",
+        "get-in-touch-des": "We’re here to help you get started. Please complete this form to chat, book a meeting, or call our sales team directly.",
+        "find-us": "Find Us on Map",
+        "our-location": "No. 19B, 251/8 Nguyen Khang Alley, Yen Hoa Ward, Cau Giay District, Ha Noi, Vietnam",
+        "connect-with-us": "Connect with us",
+        "tell-us": "Tell us more about your business",
+        "send": "Send",
+        "firstname": "Firstname",
+        "firstname-empty": "Please input your first name!",
+        "lastname": "Lastname",
+        "lastname-empty": "Please input your last name!",
+        "phone": "Phone Number",
+        "phone-invalid": "Please enter valid phone number!",
+        "address": "Address",
+        "address-invalid": "Please input your address!",
+        "industry-type": "Select Industry Type",
+        "industry-type-invalid": "Please select your industry type!",
+        "currency": "Select Currency",
+        "currency-invalid": "Please select currency!",
+        "note": "Contract Note",
+        "note-invalid": "Please input your address!"
+    },
+    "resource": "Resource",
+    "contact": "Contact",
+    "footer-links": {
+        "accomplished": "Accomplished",
+        "active": "Accomplished",
+        "advantage": "Accomplished",
+        "authentic": "Authentic",
+        "ntf-anding": "NFT Landing"
+    },
+    "company-name": "© 2023 TAPTA TECHNOLOGY JOINT STOCK COMPANY",
+    "copyright": "All rights reserved"
+}

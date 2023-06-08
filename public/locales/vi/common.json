@@ -1,0 +1,110 @@
+{
+    "features": "Tính năng",
+    "home": "Trang chủ",
+    "app-name": "Taptapos - Payment App",
+    "app-banner-text-1": "Giải pháp thanh toán",
+    "app-banner-text-2": "Quản lý kinh doanh toàn diện",
+    "app-banner-des": "Nền tảng thanh toán hiện đại, chấp nhận mọi phương thức thanh toán",
+    "our-features": "Tính năng của chúng tôi",
+    "our-features-title": "<innerText className='gradient'>Nền tảng thanh toán thông minh</innerText>  <newLine />chỉ với chiếc điện thoại thông minh của bạn",
+    "our-features-nfc": "Thanh toán không tiếp xúc",
+    "our-features-fast-transfer": "Thanh toán quốc tế dễ dàng hơn",
+    "our-features-multi-currency": "Rút tiền nhanh chóng",
+    "our-features-dashboard": "Hệ thống báo cáo toàn diện",
+    "our-features-nfc-des": "Công nghệ thanh toán không tiếp xúc được bảo vệ bởi nhiều lớp bảo mật và được nhiều cơ quan chấp nhận thẻ chấp nhận thanh toán trên toàn Việt Nam. Không còn dấu vết để tìm tiền mặt - thanh toán dễ dàng và nhanh chóng, chỉ cần chạm để thanh toán bất cứ nơi nào bạn có thể.",
+    "our-features-fast-transfer-des": "Hệ thống thanh toán mạnh mẽ chấp nhận mọi loại thẻ đang được phát hành trên toàn thế giới sẽ giúp bạn tiếp cận với các tập khách hàng, khách du lịch quốc tế mà không cần sử dụng tiền mặt.",
+    "our-features-multi-currency-des": "Giúp các chủ doanh nghiệp không chỉ quản lý được dòng tiền trong vận hành doanh nghiệp đồng thời rút tiền nhanh chóng về tài khoản ngân hàng nội địa.",
+    "our-features-dashboard-des": "Hệ thống báo cáo thông minh giúp bạn cập nhật về tình hình doanh nghiệp mọi lúc, mọi nơi. Chúng tôi sẽ giúp bạn hình dung về bức tranh tài chính của bạn một cách rõ ràng và đầy đủ thông tin nhất.",
+    "business-type": "Dịch vụ",
+    "how-it-works": "Vận hành",
+    "how-it-works-title": "<innerText className='gradient'>Kết nối toàn diện</innerText> cho <newLine/>doanh nghiệp",
+    "how-it-works-des": "Với những ứng dụng và bộ công cụ thông minh bao gồm thanh toán nội địa, thanh toán quốc tế, quản trị sale, nhân viên , ứng dụng pos, hệ thống báo cáo thông minh, quản trị dòng tiền sẽ giúp bạn mở rộng doanh nghiệp nhanh chóng và tiết kiệm chi phí so với các mô hình cũ.",
+    "how-it-works-item": {
+        "drive-sale": {
+            "title": "Phần cứng",
+            "des": "Không cần những giải pháp đi kèm với những máy móc cồng kềnh , phức tạp nữa. Chúng tôi sẽ giúp bạn triển khai hệ thống bán hàng nhanh chóng và tiết kiệm chi phí nhất."
+        },
+        "payment-link": {
+            "title": "Link thanh toán",
+            "des": "Khánh hàng có thể thanh toán và đặt hàng online thông qua các link thanh toán bảo mật."
+        },
+        "sale-online": {
+            "title": "Giải pháp bán hàng online",
+            "des": "Không chỉ giúp bạn bán hàng offline mà còn giúp bạn triển khai marketing doanh nghiệp thông qua các hoạt động thương mại trên môi trường số"
+        },
+        "advance-report": {
+            "title": "Báo cáo thông minh",
+            "des": "Hệ thống báo cáo thông minh sẽ hỗ trợ giúp bạn đưa ra các quyết định về bức tranh tài chính, vận hành cho doanh nghiệp của bạn."
+        },
+        "cash-flow": {
+            "title": "Quản trị dòng tiền",
+            "des": "Quản trị tài chính là một trong những vấn đề khó nhất của doanh nghiệp, chúng tôi hỗ trợ giúp bạn có bức tranh toàn cảnh về vấn đề doanh thu, lợi nhuận, thu chi..."
+        },
+        "payment-service": {
+            "title": "Dịch vụ Payout",
+            "des": "Rút tiền về tài khoản ngân hàng nội địa một cách nhanh chóng nhất."
+        },
+        "web-generic": {
+            "title": "Tạo website nhanh gọn",
+            "des": "Thiết kế Website bán hàng đa kênh chuyên nghiệp và tăng trưởng online với Taptapos"
+        }
+    },
+    "partners-title": "Đối tác <newLine /> <innerText className='gradient'>Hỗ trợ thanh toán</innerText>",
+    "partners-des": "Taptapos liên kết với hầu hết các Ngân hàng, tổ chức thẻ & tổ chức tài chính để cung cấp cho bạn phương thức thanh toán tốt nhất.",
+    "footer-title-1": "Khám phá <innerText className='taptapos ml-[10px] inline-block px-[24px] py-[6px] text-[24px] font-bold'>Taptapos</innerText>",
+    "footer-title-2": " với tính năng thanh toán quốc tế",
+    "footer-title-3": "và giúp doanh nghiệp tăng tỷ lệ chuyển đổi",
+    "contact-us": "Đăng ký ngay",
+    "about-us": "Thông tin",
+    "our-partners": "Đối tác",
+    "download-app": "Tải ứng dụng",
+    "contact-sale": "Liên hệ sale",
+    "business-type-title": "Giải pháp chuyển đổi số mạnh mẽ<newLine/><innerText className='gradient'>cho doanh nghiệp của bạn</innerText>",
+    "business-type-description": "Tăng chuyển đổi, quản lý rủi ro và mở rộng sang các thị trường mới nhanh hơn bao giờ hết.",
+    "retails": {
+        "title": "Bán lẻ",
+        "description": "Từ các nhà bán lẻ thời trang và mỹ phẩm đến các cửa hàng điện tử và hộp lớn, bán lẻ là một ngành không ngừng phát triển. Nhận một giải pháp thanh toán hợp nhất để cung cấp trải nghiệm mua sắm tốt nhất cho khách hàng của bạn."
+    },
+    "f&b": {
+        "title": "Nhà Hàng, Cà phê",
+        "description": "Được xây dựng dành cho các bên nhận quyền, bên nhượng quyền, dịch vụ giao hàng và nhà hàng. Chúng tôi cung cấp triển khai thiết bị đầu cuối dễ dàng, hợp nhất thanh toán trên các kênh bán hàng và thanh toán nhanh hơn."
+    },
+    "other": {
+        "title": "Ngành hàng khác",
+        "description": "Khi doanh nghiệp bạn đã có sẵn nhưng hệ thống vận hành, chúng tôi cũng sẽ cung cấp cho bạn đơn giản chỉ là hệ thống thanh toán thông minh và gọn nhẹ giúp bạn triển khai các điểm bán hàng nhanh chóng và tiết kiệm chi phí và máy móc cồng kềnh không cần thiết."
+    },
+    "contact-modal": {
+        "get-in-touch": "Liên hệ với chúng tôi",
+        "get-in-touch-des": "Ngây sau khi liên hệ, đội ngũ của chúng tôi sẽ liên lạc và hỗ trợ bạn ngay lập tức ",
+        "find-us": "Trụ sở",
+        "our-location": "vi-No.01 Ngoc Khanh, Ba Dinh District, Hanoi, Vietnam",
+        "connect-with-us": "Hãy kết nối với chùng tôi",
+        "tell-us": "Thông tin về doanh nghiệp của bạn",
+        "send": "Đăng ký ngay",
+        "firstname": "Tên ",
+        "firstname-empty": "Vui lòng nhập đầy đủ tên của bạn!",
+        "lastname": "Họ",
+        "lastname-empty": "Vui lòng nhập đầy đủ họ của bạn!",
+        "phone": "Số điện thoại",
+        "phone-invalid": "Vui lòng nhập đúng số điện thoại!",
+        "address": "Địa chỉ",
+        "address-invalid": "Vui lòng nhập địa chỉ cụ thể!",
+        "industry-type": "Loại hình doanh nghiệp của bạn",
+        "industry-type-invalid": "Vui lòng chọn loại hình doanh nghiệp của bạn!",
+        "currency": "Đơn vị tiền tệ",
+        "currency-invalid": "Vui lòng chọn đơn vị tiền",
+        "note": "Thông tin thêm",
+        "note-invalid": "Vui lòng nhập yêu cầu của bạn"
+    },
+    "resource": "Tài nguyên",
+    "contact": "Liên hệ",
+    "footer-links": {
+        "accomplished": "vi-Accomplished",
+        "active": "vi-Accomplished",
+        "advantage": "vi-Accomplished",
+        "authentic": "vi-Authentic",
+        "ntf-anding": "vi-NFT Landing"
+    },
+    "company-name": "© 2023 CÔNG TY CỔ PHẦN CÔNG NGHỆ TAPTA",
+    "copyright": "All rights reserved"
+}
