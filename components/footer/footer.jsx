@@ -1,25 +1,26 @@
-import "./footer.scss";
-import logo from '../../assets/images/logo.svg';
-import { useTranslation, Trans } from "react-i18next";
-import { Link } from "react-router-dom";
+import styles from "./footer.module.scss";
+import { useTranslation, Trans } from 'next-i18next';
+import Link from 'next/link';
+import Image from 'next/image';
+
 
 export default function Footer() {
 
-    const { t } = useTranslation();
+    const { t } = useTranslation('common');
 
-    return <div className="footer-container bg-blue-dark pb-[20px] mt-[150px]">
+    return <div className={`${styles['footer-container']} bg-blue-dark pb-[20px] mt-[150px]`}>
         <div className="container mx-auto">
-            <div className={`top-box rounded-lg bg-blue-ocean w-[930px] mx-auto p-[60px] relative top-[-50px] flex flex-col items-center`}>
-                <p className="description-item first-item text-center text-white text-[48px] font-bold flex items-center justify-center"><Trans i18nKey="footer-title-1" components={{innerText: <span />}} /></p>
-                <p className="description-item text-center text-white text-[48px] font-bold">{t("footer-title-2")}</p>
-                <p className="description-item text-center text-white text-[48px] font-bold">{t("footer-title-3")}</p>
-                <Link to='/contact-us'>
+            <div className={`${styles['top-box']} rounded-lg bg-blue-ocean w-[930px] mx-auto p-[60px] relative top-[-50px] flex flex-col items-center`}>
+                <p className={`${styles['description-item']} ${styles['first-item']} text-center text-white text-[48px] font-bold flex items-center justify-center`}><Trans i18nKey="footer-title-1" components={{innerText: <span />}} /></p>
+                <p className={`${styles['description-item']} text-center text-white text-[48px] font-bold`}>{t("footer-title-2")}</p>
+                <p className={`${styles['description-item']} text-center text-white text-[48px] font-bold`}>{t("footer-title-3")}</p>
+                <Link href='/contact-us'>
                     <button className="contact-us-btn bg-blue-primary py-[14px] px-[28px] mt-[30px] rounded-large text-white text-[18px] font-semibold">{t("contact-us")}</button>
                 </Link>
             </div>
-            <div className="grid gap-4 grid-cols-5 links-container mt-[50px]">
-                <div className="grid-item logo-grid">
-                    <img alt="logo" src={logo} />
+            <div className={`${styles['links-container']} grid gap-4 grid-cols-5 mt-[50px]`}>
+                <div className={`${styles['logo-grid']} grid-item`}>
+                    <Image src="/images/logo.svg" alt="logo" width="70" height="43" />
                 </div>
                 <div className="grid-item">
                     <h5 className="item-title mb-[11px] text-blue-medium text-[16px] font-bold">{t("features")}</h5>
@@ -60,7 +61,7 @@ export default function Footer() {
                     </ul>
                 </div>
             </div>
-            <div className="copyright flex justify-between py-[15px] border-t border-grey-light mt-[50px]">
+            <div className={`${styles['copyright']} flex justify-between py-[15px] border-t border-grey-light mt-[50px]`}>
                 <p className="company-name text-[14px] text-grey-light">{t("company-name")}</p>
                 <p className="text-[14px] text-grey-light">{t("copyright")}</p>
             </div>

@@ -6,7 +6,7 @@
     
     .top-box {
 
-        .taptapos {
+        span {
             background: linear-gradient(286.17deg, #FC00FF 0%, #00DBDE 100%);
             border-radius: 50px;
             padding: 6px 24px;
@@ -21,7 +21,7 @@
             padding: 30px 16px;
         }
 
-        .description-item, .taptapos {
+        .description-item, span {
             @media (max-width: 1280px) {
                 font-size: 40px;
             }
