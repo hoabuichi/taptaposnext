@@ -3,6 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { useTranslation, Trans } from 'next-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Image from 'next/image';
+import 'swiper/css';
 
 export default function Partners() {
 
