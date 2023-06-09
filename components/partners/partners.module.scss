@@ -30,12 +30,6 @@
         }
     }
 
-    .gradient {
-        background: -webkit-linear-gradient(right, #FC00FF, #00DBDE);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
     .main-title {
         @media (max-width: 1280px) {
             font-size: 40px;
@@ -43,6 +37,12 @@
 
         @media (max-width: 1280px) {
             font-size: 34px;
+        }
+
+        span {
+            background: -webkit-linear-gradient(right, #FC00FF, #00DBDE);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     }
 

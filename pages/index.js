@@ -1,6 +1,7 @@
 import Features from '@/components/features/features'
 import Intro from '@/components/intro/intro'
 import Layout from '@/components/layout/Layout'
+import Partners from '@/components/partners/partners'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
     <Layout isAbout={false}>
       <Intro />
       <Features />
+      <Partners />
     </Layout>
   )
 }
