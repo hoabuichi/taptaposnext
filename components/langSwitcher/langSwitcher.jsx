@@ -1,27 +1,25 @@
 import { useRef, useState } from "react";
 import useClickOutside from "@/hooks/useClickOutSide";
 import { LANGUAGES } from "@/utils/constants";
-import { getCurrentLanguage } from "@/utils/utils";
+import Link from 'next/link';
 import { useTranslation } from "next-i18next";
 import Image from 'next/image';
 import styles from './langSwitcher.module.scss';
+import { useRouter } from 'next/router'
 
 
 export default function LangSwitcher() {
 
+    const router = useRouter()
+
+    const changeTo = router.locale === 'en' ? 'vi' : 'en'
+
     const [activelang, setActivelang] = useState(() => {
-        return getCurrentLanguage();
+        return router.locale === 'en' ? 'vi' : 'en'
     });
-    const { i18n } = useTranslation();
+    
     const wrapperRef = useRef(null);
     const [isLangOpen, setIsLangOpen] = useClickOutside(wrapperRef);
-
-    const changeLanguge = (code) => {
-        i18n.changeLanguage(code);
-        setActivelang(code);
-        setIsLangOpen(false);
-        localStorage.setItem("lang", code);
-    }
 
     const getActiveFlag = () => {
         let lang = LANGUAGES.find(lang => lang.code === activelang);
@@ -35,10 +33,12 @@ export default function LangSwitcher() {
     </div>
     {isLangOpen ? <div className={`${styles["language-content"]} ]overflow-hidden shadow-light w-[180px] rounded-md mt-[10px] absolute z-10 top-[35px] right-0 bg-white`}>
         {LANGUAGES.map(language => {
-            return <button onClick={() => changeLanguge(language.code)} key={language.code} className={`flex items-center py-[10px] px-[15px] cursor-pointer w-full hover:bg-light-blue ${activelang === language.code ? styles.active : ""}`}>
-                        <img className='mr-[10px] w-[24px] h-[24px] rounded-full' alt="language-flag"  src={language.flag} />
-                        <span className='truncate'>{language.label}</span>
-                    </button>
+            return <Link href="/" locale={changeTo} key={language.code}>
+                <button onClick={() => {setIsLangOpen(false); setActivelang(language.code)}} className={`flex items-center py-[10px] px-[15px] cursor-pointer w-full hover:bg-light-blue ${activelang === language.code ? styles.active : ""}`}>
+                    <img className='mr-[10px] w-[24px] h-[24px] rounded-full' alt="language-flag"  src={language.flag} />
+                    <span className='truncate'>{language.label}</span>
+                </button>
+          </Link>
         })}
     </div> : null}
 </div>

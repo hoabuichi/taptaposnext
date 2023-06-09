@@ -11,11 +11,13 @@ export default function Home() {
 
 export const getStaticProps = async ({
   locale,
-}) => ({
-  props: {
-    ...(await serverSideTranslations(locale ?? 'en', [
-      'common',
-      'header',
-    ])),
-  },
-})
+}) => {
+  console.log("current locale", locale)
+  return ({
+    props: {
+      ...(await serverSideTranslations(locale ?? 'en', [
+        'common'
+      ])),
+    },
+  })
+}
