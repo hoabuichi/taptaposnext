@@ -1,0 +1,33 @@
+.card-container {
+    .card-description {
+        transition: opacity 0.3s, max-height 0.5s, margin 0.5s;
+
+        @media (max-width: 767px) {
+            transition: opacity 0.5s, max-height 0.5s, margin 0.5s;
+        }
+    }
+
+    @media (min-width: 768px) {
+        &.off-view {
+            opacity: 0;
+            transform: translateX(-50px);
+        }
+
+        &.on-view {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    &#card-1 {
+        transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
+    }
+
+    &#card-2 {
+        transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
+    }
+
+    &#card-3 {
+        transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
+    }
+}

@@ -1,3 +1,4 @@
+import BusinessTypes from '@/components/businessTypes/businessTypes'
 import Features from '@/components/features/features'
 import HowItWorks from '@/components/howitworks/howItWorks'
 import Intro from '@/components/intro/intro'
@@ -10,6 +11,7 @@ export default function Home() {
     <Layout isAbout={false}>
       <Intro />
       <Features />
+      <BusinessTypes />
       <HowItWorks />
       <Partners />
     </Layout>

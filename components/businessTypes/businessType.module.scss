@@ -27,45 +27,14 @@
             padding: 40px 16px;
         }
     }
-    .gradient {
-        background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
 
-    .business-types {
-
-        .card-container {
-
-            &#card-1 {
-                transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
-            }
-
-            &#card-2 {
-                transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
-            }
-
-            &#card-3 {
-                transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
-            }
-        }
-
-        @media (min-width: 768px) {
-            &.off-view {
-                .card-container {
-                    opacity: 0;
-                    transform: translateX(-50px);
-                }
-            }
-    
-            &.on-view {
-                .card-container {
-                    opacity: 1;
-                    transform: translateX(0);
-                }
-            }
+    .main-title {
+        span {
+            background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
         }
     }
 
