@@ -2,7 +2,6 @@ import { useRef, useState } from "react";
 import useClickOutside from "@/hooks/useClickOutSide";
 import { LANGUAGES } from "@/utils/constants";
 import Link from 'next/link';
-import { useTranslation } from "next-i18next";
 import Image from 'next/image';
 import styles from './langSwitcher.module.scss';
 import { useRouter } from 'next/router'
