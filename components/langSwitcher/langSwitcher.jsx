@@ -12,12 +12,10 @@ export default function LangSwitcher() {
 
     const router = useRouter()
 
-    const changeTo = router.locale === 'en' ? 'vi' : 'en'
-
     const [activelang, setActivelang] = useState(() => {
-        return router.locale === 'en' ? 'vi' : 'en'
+        return router.locale || 'en'
     });
-    
+
     const wrapperRef = useRef(null);
     const [isLangOpen, setIsLangOpen] = useClickOutside(wrapperRef);
 
@@ -33,7 +31,7 @@ export default function LangSwitcher() {
     </div>
     {isLangOpen ? <div className={`${styles["language-content"]} ]overflow-hidden shadow-light w-[180px] rounded-md mt-[10px] absolute z-10 top-[35px] right-0 bg-white`}>
         {LANGUAGES.map(language => {
-            return <Link href="/" locale={changeTo} key={language.code}>
+            return <Link href="/" locale={language.code} key={language.code}>
                 <button onClick={() => {setIsLangOpen(false); setActivelang(language.code)}} className={`flex items-center py-[10px] px-[15px] cursor-pointer w-full hover:bg-light-blue ${activelang === language.code ? styles.active : ""}`}>
                     <img className='mr-[10px] w-[24px] h-[24px] rounded-full' alt="language-flag"  src={language.flag} />
                     <span className='truncate'>{language.label}</span>
