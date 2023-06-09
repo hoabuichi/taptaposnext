@@ -17,7 +17,7 @@ const MERCHANT_TYPE = {
 }
 
 const LANGUAGES = [
-    { label: "English", code: "en", flag: "images/en_flag.svg" },
+    { label: "English", code: "en", flag: "/images/en_flag.svg" },
     { label: "Vietnam", code: "vi", flag: "/images/vi_flag.svg" },
 ];
 

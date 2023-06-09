@@ -25,10 +25,10 @@ export default function Header(props) {
                                         <li className='mr-[32px] text-base font-semibold'>{t('contact-sale')}</li>
                                     </Link>
                                 </> : <>
-                                    <li className='mr-[32px] text-base font-semibold'><Link href="#features">{t('features')}</Link></li>
-                                    <li className='mr-[32px] text-base font-semibold'><Link href="#business-type">{t("business-type")}</Link></li>
-                                    <li className='mr-[32px] text-base font-semibold'><Link href="#how-it-works">{t("how-it-works")}</Link></li>
-                                    <li className='mr-[32px] text-base font-semibold'><Link href="#partners-container">{t("our-partners")}</Link></li>
+                                    <li className='mr-[32px] text-base font-semibold'><Link href="#features" scroll={false}>{t('features')}</Link></li>
+                                    <li className='mr-[32px] text-base font-semibold'><Link href="#business-type" scroll={false}>{t("business-type")}</Link></li>
+                                    <li className='mr-[32px] text-base font-semibold'><Link href="#how-it-works" scroll={false}>{t("how-it-works")}</Link></li>
+                                    <li className='mr-[32px] text-base font-semibold'><Link href="#partners-container" scroll={false}>{t("our-partners")}</Link></li>
                                 </>
                                  
                                 }
@@ -68,10 +68,10 @@ export default function Header(props) {
                                         <li className='mr-[32px] mt-[32px] text-base font-semibold'>{t("contact-sale")}</li>
                                     </Link>
                                 </> : <>
-                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#features">{t("features")}</Link></li>
-                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#business-type">{t("business-type")}</Link></li>
-                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#how-it-works">{t("how-it-works")}</Link></li>
-                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#partners-container">{t("our-partners")}</Link></li></> }
+                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#features" scroll={false}>{t("features")}</Link></li>
+                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#business-type" scroll={false}>{t("business-type")}</Link></li>
+                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#how-it-works" scroll={false}>{t("how-it-works")}</Link></li>
+                                    <li className='mr-[32px] mt-[32px] text-base font-semibold'><Link onClick={() => setShowMobileNav(prevValue => !prevValue)} href="#partners-container" scroll={false}>{t("our-partners")}</Link></li></> }
                                 </ul>
                                 <div className={`${styles["button-containers"]} mt-[60px]`}>
                                     <Link href='/contact-us'>
