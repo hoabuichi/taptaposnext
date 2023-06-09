@@ -12,7 +12,7 @@ import Layout from '@/components/layout/Layout';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
+import "antd/dist/reset.css";
 
 const containerStyle = {
     width: '356px',
