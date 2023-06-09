@@ -11,9 +11,11 @@ export default function Home() {
     <Layout isAbout={false}>
       <Intro />
       <Features />
-      <BusinessTypes />
-      <HowItWorks />
-      <Partners />
+      <div className="overflow-hidden">
+        <BusinessTypes />
+        <HowItWorks />
+        <Partners />
+      </div>
     </Layout>
   )
 }
