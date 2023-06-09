@@ -1,0 +1,483 @@
+.how-it-works-container {
+    .gradient {
+        background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .blur-bgs {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+
+    @media (max-width: 768px) {
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+
+    .main-title {
+        @media (max-width: 1280px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 34px;
+        }
+    }
+
+    .section-header {
+        @media (max-width: 1280px) {
+            grid-template-columns: 3fr 2fr;
+        }
+
+        @media (max-width: 1024px) {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .how-it-works-item {
+        .item-title {
+            font-size: 14px;
+
+            &.closed {
+                @media (max-width: 767px) {
+                    display: none;
+                }
+            }
+        }
+
+        .trigger {
+
+            @media (max-width: 767px) {
+                background-color: transparent;
+            }
+
+            &.closed {
+                @media (max-width: 767px) {
+                    border-radius: 50%;
+                    padding: 8px;
+                }
+            }
+        }
+
+        .item-description {
+            font-size: 14px;
+        }
+    }
+
+    .section-content {
+        .desktop {
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+
+        .mobile {
+            display: none;
+            @media (max-width: 767px) {
+                display: block;
+            }
+        }
+
+        #payment-link {
+            top: 235px;
+            left: 75px;
+
+            @media (max-width: 1536px) {
+                top: 200px;
+                left: 75px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 170px;
+                left: 60px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 125px;
+                left: 45px;
+            }
+
+            @media (max-width: 768px) {
+                top:10px;
+                left: 220px;
+            }
+
+            @media (max-width: 480px) {
+                top:10px;
+                left: 165px;
+            }
+
+            @media (max-width: 414px) {
+                top:10px;
+                left: 130px;
+            }
+
+            @media (max-width: 412px) {
+                top:10px;
+                left: 130px;
+            }
+
+            @media (max-width: 390px) {
+                top:10px;
+                left: 120px;
+            }
+
+            @media (max-width: 375px) {
+                top:10px;
+                left: 120px;
+            }
+
+            @media (max-width: 360px) {
+                top:10px;
+                left: 100px;
+            }
+        }
+
+        #drive-sale {
+            top: 130px;
+            left: 295px;
+
+            @media (max-width: 1536px) {
+                top: 115px;
+                left: 255px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 100px;
+                left: 200px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 10px;
+                left: 250px;
+            }
+
+            @media (max-width: 768px) {
+                top: 250px;
+                left: 410px;
+            }
+
+            @media (max-width: 480px) {
+                top: 190px;
+                left: 150px;
+
+                button {
+                    width: 100%;
+                    padding-right: 0;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (max-width: 414px) {
+                top: 150px;
+                left: 100px;
+            }
+
+            @media (max-width: 412px) {
+                top: 150px;
+                left: 100px;
+            }
+
+            @media (max-width: 390px) {
+                top: 150px;
+                left: 80px;
+            }
+
+            @media (max-width: 375px) {
+                top: 130px;
+                left: 70px;
+            }
+
+            @media (max-width: 360px) {
+                top: 130px;
+                left: 50px;
+            }
+        }
+
+        #sale-online {
+            top: 600px;
+            left: 270px;
+
+            @media (max-width: 1536px) {
+                top: 440px;
+                left: 330px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 400px;
+                left: 300px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 270px;
+                left: 210px;
+            }
+
+            @media (max-width: 768px) {
+                top:280px;
+                left: 100px;
+            }
+
+            @media (max-width: 480px) {
+                top: 210px;
+                left: 90px;
+            }
+
+            @media (max-width: 414px) {
+                top: 190px;
+                left: 80px;
+            }
+
+            @media (max-width: 412px) {
+                top: 190px;
+                left: 80px;
+            }
+
+            @media (max-width: 390px) {
+                top: 220px;
+                left: 50px;
+            }
+
+            @media (max-width: 375px) {
+                top: 200px;
+                left: 40px;
+            }
+
+            @media (max-width: 360px) {
+                top: 200px;
+                left: 40px;
+            }
+        }
+
+        #advance-report {
+            top: 320px;
+            left: 600px;
+
+            @media (max-width: 1536px) {
+                top: 230px;
+                left: 560px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 180px;
+                left: 560px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 180px;
+                left: 300px;
+            }
+
+            @media (max-width: 768px) {
+                top: 540px;
+                left: 290px;
+            }
+
+            @media (max-width: 480px) {
+                top: 410px;
+                left: 205px;
+            }
+
+            @media (max-width: 414px) {
+                top: 350px;
+                left: 170px;
+            }
+
+            @media (max-width: 412px) {
+                top: 350px;
+                left: 170px;
+            }
+
+            @media (max-width: 390px) {
+                top: 330px;
+                left: 140px;
+            }
+
+            @media (max-width: 375px) {
+                top: 320px;
+                left: 140px;
+            }
+
+            @media (max-width: 360px) {
+                top: 310px;
+                left: 130px;
+            }
+        }
+
+        #payout-service {
+            top: 600px;
+            left: 900px;
+
+            @media (max-width: 1536px) {
+                top: 440px;
+                left: 880px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 400px;
+                left: 810px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 270px;
+                left: 560px;
+            }
+
+            @media (max-width: 768px) {
+                top: 650px;
+                left: 130px;
+            }
+
+            @media (max-width: 480px) {
+                top: 500px;
+                left: 110px;
+            }
+
+            @media (max-width: 414px) {
+                top: 430px;
+                left: 90px;
+            }
+
+            @media (max-width: 412px) {
+                top: 430px;
+                left: 90px;
+            }
+
+            @media (max-width: 390px) {
+                top: 405px;
+                left: 90px;
+            }
+
+            @media (max-width: 375px) {
+                top: 380px;
+                left: 80px;
+            }
+
+            @media (max-width: 360px) {
+                top: 360px;
+                left: 70px;
+            }
+        }
+
+        #web-generic {
+            top: 295px;
+            left: 1120px;
+
+            @media (max-width: 1536px) {
+                top: 250px;
+                left: 920px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 220px;
+                left: 830px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 160px;
+                left: 530px;
+            }
+
+            @media (max-width: 768px) {
+                top: 880px;
+                left: 240px;
+            }
+
+            @media (max-width: 480px) {
+                top: 670px;
+                left: 150px;
+            }
+
+            @media (max-width: 414px) {
+                top: 560px;
+                left: 120px;
+            }
+
+            @media (max-width: 412px) {
+                top: 560px;
+                left: 120px;
+            }
+
+            @media (max-width: 390px) {
+                top: 530px;
+                left: 110px;
+            }
+
+            @media (max-width: 375px) {
+                top: 510px;
+                left: 110px;
+            }
+
+            @media (max-width: 360px) {
+                top: 480px;
+                left: 100px;
+            }
+        }
+        #cash-flow {
+            top: 115px;
+            left: 950px;
+
+            @media (max-width: 1536px) {
+                top: 95px;
+                left: 780px;
+            }
+
+            @media (max-width: 1280px) {
+                top: 90px;
+                left: 700px;
+            }
+
+            @media (max-width: 1024px) {
+                top: 65px;
+                left: 500px;
+            }
+
+            @media (max-width: 768px) {
+                top: 685px;
+                left: 390px;
+            }
+
+            @media (max-width: 480px) {
+                top: 565px;
+                left: 150px;
+
+                button {
+                    width: 100%;
+                    padding-right: 0;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                }
+            }
+
+            @media (max-width: 414px) {
+                top: 475px;
+                left: 90px;
+            }
+
+            @media (max-width: 412px) {
+                top: 475px;
+                left: 90px;
+            }
+
+            @media (max-width: 390px) {
+                top: 445px;
+                left: 70px;
+            }
+
+            @media (max-width: 375px) {
+                top: 425px;
+                left: 70px;
+            }
+
+            @media (max-width: 360px) {
+                top: 405px;
+                left: 50px;
+            }
+        }
+    }
+}

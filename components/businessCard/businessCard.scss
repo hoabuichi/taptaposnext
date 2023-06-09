@@ -1,0 +1,9 @@
+.card-container {
+    .card-description {
+        transition: opacity 0.3s, max-height 0.5s, margin 0.5s;
+
+        @media (max-width: 767px) {
+            transition: opacity 0.5s, max-height 0.5s, margin 0.5s;
+        }
+    }
+}

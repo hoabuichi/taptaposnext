@@ -1,10 +1,13 @@
+import Features from '@/components/features/features'
+import Intro from '@/components/intro/intro'
 import Layout from '@/components/layout/Layout'
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
   return (
     <Layout isAbout={false}>
-      <div>Hoa</div>
+      <Intro />
+      <Features />
     </Layout>
   )
 }

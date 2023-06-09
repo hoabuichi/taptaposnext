@@ -1,0 +1,112 @@
+.business-type-container {
+
+    .info {
+        p {
+            @media (max-width: 1280px) {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        .container {
+            padding: 0;
+        }
+    }
+
+    .main-content {
+        @media (max-width: 1280px) {
+            padding-right: 40px;
+        }
+
+        @media (max-width: 1024px) {
+            padding: 60px 40px;
+        }
+
+        @media (max-width: 480px) {
+            padding: 40px 16px;
+        }
+    }
+    .gradient {
+        background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+
+    .business-types {
+
+        .card-container {
+
+            &#card-1 {
+                transition: opacity 0.5s 0.2s, transform 0.5s 0.2s;
+            }
+
+            &#card-2 {
+                transition: opacity 0.5s 0.4s, transform 0.5s 0.4s;
+            }
+
+            &#card-3 {
+                transition: opacity 0.5s 0.6s, transform 0.5s 0.6s;
+            }
+        }
+
+        @media (min-width: 768px) {
+            &.off-view {
+                .card-container {
+                    opacity: 0;
+                    transform: translateX(-50px);
+                }
+            }
+    
+            &.on-view {
+                .card-container {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+        }
+    }
+
+    .main-title {
+        @media (max-width: 1280px) {
+            font-size: 40px;
+        }
+
+        @media (max-width: 1024px) {
+            font-size: 34px;
+        }
+    }
+
+    .business-list {
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+
+        .business-types {
+            @media (max-width: 1280px) {
+                width: 50%;
+            }
+
+            @media (max-width: 1024px) {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+
+        .business-img {
+            @media (max-width: 1280px) {
+                margin-left: 50px;
+                top: 0;
+            }
+
+            @media (max-width: 1024px) {
+                margin-left: 0;
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
