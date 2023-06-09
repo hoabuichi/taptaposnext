@@ -1,4 +1,5 @@
 import Features from '@/components/features/features'
+import HowItWorks from '@/components/howitworks/howItWorks'
 import Intro from '@/components/intro/intro'
 import Layout from '@/components/layout/Layout'
 import Partners from '@/components/partners/partners'
@@ -9,6 +10,7 @@ export default function Home() {
     <Layout isAbout={false}>
       <Intro />
       <Features />
+      <HowItWorks />
       <Partners />
     </Layout>
   )

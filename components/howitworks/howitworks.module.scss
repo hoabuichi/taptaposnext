@@ -1,11 +1,4 @@
 .how-it-works-container {
-    .gradient {
-        background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
 
     .blur-bgs {
         @media (max-width: 1024px) {
@@ -26,6 +19,14 @@
         @media (max-width: 1024px) {
             font-size: 34px;
         }
+
+        span {
+            background: linear-gradient(286.17deg, #a849e3 0%, #00DBDE 70%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
     }
 
     .section-header {
@@ -35,36 +36,6 @@
 
         @media (max-width: 1024px) {
             grid-template-columns: 1fr;
-        }
-    }
-
-    .how-it-works-item {
-        .item-title {
-            font-size: 14px;
-
-            &.closed {
-                @media (max-width: 767px) {
-                    display: none;
-                }
-            }
-        }
-
-        .trigger {
-
-            @media (max-width: 767px) {
-                background-color: transparent;
-            }
-
-            &.closed {
-                @media (max-width: 767px) {
-                    border-radius: 50%;
-                    padding: 8px;
-                }
-            }
-        }
-
-        .item-description {
-            font-size: 14px;
         }
     }
 

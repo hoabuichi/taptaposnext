@@ -31,11 +31,11 @@ export default function Partners() {
                     spaceBetween={30}
                     slidesPerView={3}
                     >
-                        <SwiperSlide><Image className='mb-[40px] mx-[30px]' src="/images/mastercard.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
-                        <SwiperSlide><Image className='mb-[40px] mx-[30px]' src="/images/adyen.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
-                        <SwiperSlide><Image className='mb-[40px] mx-[30px]' src="/images/napas.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
-                        <SwiperSlide><Image className='mb-[40px] mx-[30px]' src="/images/visa.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
-                        <SwiperSlide><Image className='mb-[40px] mx-[30px]' src="/images/paypal.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
+                        <SwiperSlide><Image src="/images/mastercard.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
+                        <SwiperSlide><Image src="/images/adyen.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
+                        <SwiperSlide><Image src="/images/napas.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
+                        <SwiperSlide><Image src="/images/visa.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
+                        <SwiperSlide><Image src="/images/paypal.svg" alt="partner logo" width="150" height="48" /></SwiperSlide>
 
                     </Swiper>
                 </div>

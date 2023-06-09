@@ -1,11 +1,11 @@
 import SectionTitle from "../sectionTitle/sectionTitle";
-import './howitworks.scss';
-import howItWorksImage from "../../assets/images/how-it-works.svg";
-import howItWorksImageMobile from "../../assets/images/how-it-works-mobile.svg";
+import styles from './howitworks.module.scss';
 import HowItWorksItem from "./item/howItWorksItem";
 import BackgroundBlur from "../backgroundBlur/backgroundBlur";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation, Trans } from 'next-i18next';
 import { useState } from "react";
+import Image from 'next/image';
+
 
 const items = [{
     id: "payment-link",
@@ -46,7 +46,7 @@ export default function HowItWorks() {
 
     const [activeItem, setActiveItem] = useState("");
 
-    const { t } = useTranslation();
+    const { t } = useTranslation('common');
 
     const toggleVisible = (id, isFocused) => {
         if (isFocused) {
@@ -58,22 +58,22 @@ export default function HowItWorks() {
 
 
     return <section id="how-it-works">
-        <div className="how-it-works-container py-[140px] relative bg-white-70">
-            <div className="blur-bgs">           
+        <div className={`${styles['how-it-works-container']} py-[140px] relative bg-white-70`}>
+            <div className={`${styles['blur-bgs']}`}>
                 <BackgroundBlur position="top-[-50px] right-[-200px] w-[400px] h-[400px]" />
                 <BackgroundBlur position="bottom-[-50px] left-[-200px] w-[400px] h-[400px]" />
             </div>
             <div className="container mx-auto">
                 <SectionTitle title={`03 . ${t("how-it-works")}`} borderColor="blue-light-separator" />
-                <div className="section-header grid grid-cols-2 mt-[20px]">
-                    <h2 className="main-title text-black-light-dark text-[48px] font-bold mb-[16px]"><Trans i18nKey="how-it-works-title" components={{newLine: <br />, innerText: <span />}} /></h2>
+                <div className={`${styles['section-header']} grid grid-cols-2 mt-[20px]`}>
+                    <h2 className={`${styles['main-title']} text-black-light-dark text-[48px] font-bold mb-[16px]`}><Trans i18nKey="how-it-works-title" components={{newLine: <br />, innerText: <span />}} /></h2>
                     <p className="text-grey-light-dark text-[18px] flex items-center">{t("how-it-works-des")}</p>
                 </div>
-                <div className="section-content mt-[60px] relative">
-                    <img className="w-full desktop" src={howItWorksImage} alt="how it works" />
-                    <img className="w-full mobile" src={howItWorksImageMobile} alt="how it works" />
+                <div className={`${styles['section-content']} mt-[60px] relative`}>
+                    <Image className={`${styles['desktop']} w-full`} src="/images/how-it-works.svg" alt="how it works" width="1344" height="584" />
+                    <Image className={`${styles['mobile']} w-full`} src="/images/how-it-works-mobile.svg" alt="how it works" width="576" height="910" />
                     {
-                        items.map(item => <div key={item.id} id={item.id} className={`absolute ${activeItem === item.id ? "z-10" : "z-0"}`}>
+                        items.map(item => <div key={item.id} id={styles[item.id]} className={`absolute ${activeItem === item.id ? "z-10" : "z-0"}`}>
                             <HowItWorksItem type={item.id} toggleVisible={toggleVisible} title={t(item.title)} description={t(item.description)} />
                         </div>)
                     }
